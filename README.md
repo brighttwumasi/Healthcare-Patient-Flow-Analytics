@@ -262,7 +262,11 @@ DIVIDE(
 
 The average satisfaction calculation excludes blank values but includes recorded zero scores.
 
-
+**Average Waiting Time**
+```dax
+Average Waiting Time :=
+AVERAGE(PatientsTable[Patient Waittime])
+```
 
 # 6. Interactive Dashboard and Key Performance Indicators
 
