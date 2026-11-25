@@ -77,7 +77,36 @@ The specific objectives were to:
 8. Develop an interactive dashboard to communicate the findings.
 9. Identify operational areas that may benefit from further investigation.
 
-# 4. Dataset Description
+# 4. Project Work Flow 
+```
+RAW HEALTHCARE DATA
+        |
+        v
+DATA PROFILING & QUALITY ASSESSMENT
+        |
+        v
+DATA CLEANING
+        |
+        v
+POWER QUERY TRANSFORMATIONS
+        |
+        v
+POWER PIVOT DATA MODELLING
+        |
+        v
+DAX MEASURES & CALCULATIONS
+        |
+        v
+PIVOTTABLES & PIVOTCHARTS
+        |
+        v
+INTERACTIVE DASHBOARD
+        |
+        v
+INSIGHTS & RECOMMENDATIONS
+```
+
+# 5. Dataset Description
 
 The dataset contains 9,216 patient encounter records and includes variables relating to patient demographics, admission information, waiting times, departmental referrals and satisfaction scores.
 
@@ -102,13 +131,13 @@ The actual date values in the cleaned dataset ranged from **1 April 2023 to 30 O
 
 An important metadata discrepancy was identified: the dataset's About section describes the period as September 2023 to December 2024, whereas the actual admission-date values indicate April 2023 to October 2024. The date values in the records were therefore used for the analysis.
 
-# 5. Data Preparation and Methodology
+# 6. Data Preparation and Methodology
 
 Data preparation was an important stage of this project because the reliability of the analysis depended on the consistency and usability of the source data.
 
 Microsoft Excel and Power Query were used to inspect, clean and transform the dataset before analytical modelling.
 
-## 5.1 Data Quality Assessment and Cleaning
+## 6.1 Data Quality Assessment and Cleaning
 
 Several data-quality issues were identified and addressed.
 
@@ -181,7 +210,7 @@ For analytical purposes, they were grouped as follows:
 
 These are analytical groupings adopted for this project, rather than independently verified institutional satisfaction standards.
 
-## 5.2 Date-Based Transformations
+## 6.2 Date-Based Transformations
 
 Power Query was used to derive additional date-related fields, including:
 
@@ -199,7 +228,7 @@ The dataset was also categorized into four periods of the day:
 
 These transformations supported temporal analysis of patient encounters and admissions.
 
-## 5.3 Data Modelling and Calculations
+## 6.3 Data Modelling and Calculations
 
 Power Pivot was used to load the transformed dataset into the Excel Data Model.
 
@@ -268,7 +297,7 @@ Average Waiting Time :=
 AVERAGE(PatientsTable[Patient Waittime])
 ```
 
-# 6. Interactive Dashboard and Key Performance Indicators
+# 7. Interactive Dashboard and Key Performance Indicators
 
 An interactive Microsoft Excel dashboard was developed to provide a consolidated view of healthcare patient-flow performance.
 
@@ -276,7 +305,7 @@ The dashboard brings together key performance indicators (KPIs), demographic ana
 
 It was designed to help users explore the dataset, identify operational patterns and obtain insights through interactive filtering.
 
-### 6.1. Key Performance Indicators
+### 7.1. Key Performance Indicators
 
 The dashboard presents six principal performance indicators:
 
@@ -289,7 +318,7 @@ The dashboard presents six principal performance indicators:
 | Average Satisfaction Score | 4.99/10 |
 | Satisfaction Coverage | 27.31% |
 
-### 6.2 Dashboard Visualisations
+### 7.2 Dashboard Visualisations
 
 The dashboard contains nine analytical visualisations covering:
 
@@ -305,7 +334,7 @@ The dashboard contains nine analytical visualisations covering:
 
 Combination charts were used to present patient volumes and admission rates together, allowing users to compare absolute counts with admission percentages.
 
-### 6.3 Interactive Filtering
+### 7.3 Interactive Filtering
 
 Slicers were incorporated to enable dynamic exploration of the dashboard.
 
@@ -317,7 +346,7 @@ Users can filter the visualisations by:
 
 The interactive elements allow users to examine different patient segments without having to navigate through multiple worksheets.
 
-### 6.4 Dashboard Preview
+### 7.4 Dashboard Preview
 
 The following image provides a visual overview of the completed dashboard.
 
@@ -327,9 +356,9 @@ The following image provides a visual overview of the completed dashboard.
 
 The dashboard serves as the primary visual interface for communicating the analytical findings and supporting further exploration of patient-flow patterns.
 
-# 7. Key Findings and Analysis
+# 8. Key Findings and Analysis
 
-## 7.1 Overall Patient Admission Performance
+## 8.1 Overall Patient Admission Performance
 
 The dataset contained 9,216 patient encounters, of which 4,612 resulted in admissions.
 
@@ -346,7 +375,7 @@ This indicates that approximately half of the recorded patient encounters result
 The relatively balanced distribution between admitted and non-admitted encounters provides a useful starting point for examining factors associated with admission decisions.
 
 
-## 7.2 Patient Demographic Analysis
+## 8.2 Patient Demographic Analysis
 
 ### A. Gender Distribution and Admission Patterns
 
@@ -407,7 +436,7 @@ The differences across racial categories were relatively small.
 
 These findings are descriptive and should not be interpreted as evidence that race determines admission outcomes. Further investigation would be required to understand the influence of clinical conditions, age, service utilization and other relevant factors.
 
-## 7.3 Annual Patient Volumes and Admission Rates
+## 8.3 Annual Patient Volumes and Admission Rates
 
 | Year | Total Patients | Total Admissions | Admission Rate |
 |---|---:|---:|---:|
@@ -425,7 +454,7 @@ The actual date coverage is April–December 2023 and January–October 2024. Th
 
 The figures describe the recorded encounters in each available period and should not be interpreted as a like-for-like annual growth comparison.
 
-## 7.4 Monthly Patient Admission Patterns
+## 8.4 Monthly Patient Admission Patterns
 
 The monthly aggregation showed variations in patient volumes and admissions.
 
@@ -449,7 +478,7 @@ Consequently, the monthly totals are based on unequal periods of observation.
 
 The monthly chart is useful for describing the aggregated records, but it should not be used to establish seasonality or make direct month-to-month comparisons without separating the years and accounting for the different date coverage.
 
-## 7.5 Department Referral Analysis
+## 8.5 Department Referral Analysis
 
 The department referral analysis focused on the 3,816 encounters assigned to specialist departments.
 
@@ -476,7 +505,7 @@ The findings provide an opportunity to examine referral distribution and departm
 
 They do not, on their own, establish differences in departmental efficiency or clinical performance.
 
-## 7.6 Waiting-Time Analysis
+## 8.6 Waiting-Time Analysis
 
 Waiting-time analysis examined the relationship between the defined waiting-time categories and admission outcomes.
 
@@ -500,7 +529,7 @@ Other factors, including patient condition, clinical assessment, service availab
 
 The waiting-time unit was interpreted as minutes for this analysis based on the operational context and recorded values. The original dataset documentation did not explicitly specify the unit.
 
-## 7.7 Patient Admission Patterns by Period of Day
+## 8.7 Patient Admission Patterns by Period of Day
 
 Patient encounters and admissions were examined across four periods of the day.
 
@@ -522,7 +551,7 @@ These findings may support further examination of staffing arrangements, patient
 
 The results alone do not establish that staffing levels or operational capacity caused the observed differences.
 
-## 7.8 Patient Satisfaction Analysis
+## 8.8 Patient Satisfaction Analysis
 
 Patient satisfaction scores ranged from 0 to 10.
 
@@ -551,17 +580,17 @@ The missing satisfaction information may introduce response bias, and the availa
 
 The 222 recorded zero scores were retained as valid numerical observations because the source data did not establish that zero represented missing information.
 
-# 8. Recommendations
+# 9. Recommendations
 
 The findings suggest several areas that healthcare administrators could investigate further.
 
-## 8.1 Strengthen Patient Flow Monitoring
+## 9.1 Strengthen Patient Flow Monitoring
 
 Healthcare administrators should consider monitoring patient volumes, admission decisions and waiting times together.
 
 A combined monitoring approach can provide a more complete picture of operational demand than examining individual indicators in isolation.
 
-## 8.2 Investigate Waiting-Time Patterns
+## 9.2 Investigate Waiting-Time Patterns
 
 The declining admission rate across the waiting-time categories warrants further investigation.
 
@@ -569,13 +598,13 @@ Management could examine whether waiting-time differences are associated with pa
 
 The objective should be to understand the drivers of waiting time and identify opportunities to improve patient flow.
 
-## 8.3 Review Staffing and Scheduling Patterns
+## 9.3 Review Staffing and Scheduling Patterns
 
 The differences observed across periods of the day provide an opportunity to examine whether staffing arrangements and departmental capacity are aligned with patient demand.
 
 Further analysis using shift-level staffing information, patient arrival timestamps and department-level workload data would strengthen this assessment.
 
-## 8.4 Examine Departmental Referral Patterns
+## 9.4 Examine Departmental Referral Patterns
 
 General Practice accounted for the largest proportion of specialist referral encounters.
 
@@ -583,7 +612,7 @@ Healthcare administrators could examine referral volumes, processing times, depa
 
 Departments with relatively small encounter volumes should be assessed using sufficient observation periods before drawing conclusions from their admission rates.
 
-## 8.5 Improve Patient Satisfaction Data Collection
+## 9.5 Improve Patient Satisfaction Data Collection
 
 The 27.31% satisfaction coverage represents a significant limitation.
 
@@ -591,7 +620,7 @@ Healthcare facilities should consider reviewing their patient feedback collectio
 
 Improved collection and documentation of satisfaction scores would provide a more representative basis for monitoring patient experience.
 
-## 8.6 Strengthen Data Quality and Documentation
+## 9.6 Strengthen Data Quality and Documentation
 
 The project identified issues involving date formats, malformed gender entries, missing referral classifications and incomplete satisfaction records.
 
@@ -599,7 +628,7 @@ Healthcare institutions should establish consistent data-entry standards, valida
 
 Clear definitions for fields such as waiting time, admission status and satisfaction scores are particularly important.
 
-## 8.7 Develop More Detailed Operational Forecasting
+## 9.7 Develop More Detailed Operational Forecasting
 
 The dataset's business context identifies patient-volume forecasting and operational efficiency as potential use cases.
 
@@ -607,11 +636,11 @@ Further work could incorporate historical patient arrivals, staffing levels, dep
 
 The current analysis provides a foundation for such work but does not itself constitute a validated forecasting model.
 
-# 9. Limitations of the Analysis
+# 10. Limitations of the Analysis
 
 The findings should be interpreted in light of the following limitations.
 
-### 9.1 Date Coverage Discrepancy
+### 10.1 Date Coverage Discrepancy
 
 The dataset's About section describes the observation period as September 2023 to December 2024.
 
@@ -619,13 +648,13 @@ However, the actual admission-date values range from 1 April 2023 to 30 October 
 
 The analysis therefore uses the actual dates recorded in the dataset.
 
-### 9.2 Unequal Annual Observation Periods
+### 10.2 Unequal Annual Observation Periods
 
 The 2023 records cover April to December, while the 2024 records cover January to October.
 
 The annual totals are not directly comparable as full-year performance indicators.
 
-### 9.3 Unequal Monthly Coverage
+### 10.3 Unequal Monthly Coverage
 
 The monthly analysis aggregates records across years.
 
@@ -633,7 +662,7 @@ Some months contain observations from both years, while others contain observati
 
 Consequently, the monthly totals should not be interpreted as a like-for-like seasonal comparison.
 
-### 9.4 Missing Patient Satisfaction Data
+### 10.4 Missing Patient Satisfaction Data
 
 Only 2,517 of the 9,216 encounters contained satisfaction scores.
 
@@ -641,7 +670,7 @@ The resulting 27.31% coverage may introduce response bias.
 
 Satisfaction findings therefore apply only to the records with available scores.
 
-### 9.5 Waiting-Time Unit
+### 10.5 Waiting-Time Unit
 
 The original dataset documentation does not explicitly identify the unit of measurement for patient waiting time.
 
@@ -649,13 +678,13 @@ Minutes were adopted as the working interpretation based on the operational cont
 
 This assumption should be verified against the original source documentation where possible.
 
-### 9.6 Analytical Categorization
+### 10.6 Analytical Categorization
 
 Age groups, waiting-time categories and satisfaction classifications were created for this analysis.
 
 They should not be interpreted as official clinical, institutional or regulatory classifications.
 
-### 9.7 Descriptive Rather Than Causal Analysis
+### 10.7 Descriptive Rather Than Causal Analysis
 
 The project primarily examines descriptive patterns and relationships.
 
@@ -663,13 +692,13 @@ The observed differences in admission rates do not establish causation.
 
 Further statistical analysis and additional operational data would be required to investigate underlying drivers.
 
-### 9.8 Limited Operational Variables
+### 10.8 Limited Operational Variables
 
 Although the dataset's business context identifies staffing, capacity and patient-flow management as relevant use cases, the available analysis does not establish the effects of staffing levels, bed availability or clinical severity.
 
 These variables would be valuable additions to future analysis.
 
-# 10. Conclusion
+# 11. Conclusion
 
 This project demonstrates how Microsoft Excel can be used to transform raw healthcare operational data into structured information that supports business and operational analysis.
 
@@ -687,7 +716,7 @@ Ultimately, effective healthcare analytics is not simply about producing charts 
 
 ---
 
-# 11. Project Deliverables and Technical Skills Demonstrated
+# 12. Project Deliverables and Technical Skills Demonstrated
 
 The project demonstrates practical application of the following analytical capabilities:
 
