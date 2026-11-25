@@ -272,7 +272,7 @@ The dashboard brings together key performance indicators (KPIs), demographic ana
 
 It was designed to help users explore the dataset, identify operational patterns and obtain insights through interactive filtering.
 
-### 6.1.1 Key Performance Indicators
+### 6.1. Key Performance Indicators
 
 The dashboard presents six principal performance indicators:
 
