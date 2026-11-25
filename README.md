@@ -772,4 +772,16 @@ Website: https://brightdataconsult.com
 
 **Project Portfolio:** Healthcare Patient Flow Analytics
 
+### Dataset Source and Licence
+
+The dataset used in this project was obtained from Kaggle:
+
+**Source:** Hassan Jameel Ahmed – [Healthcare Analytics: Patient Flow Data](https://www.kaggle.com/datasets/hassanjameelahmed/healthcare-analytics-patient-flow-data)
+
+**Licence:** CC0 1.0 Universal (Public Domain Dedication).
+
+The dataset is released under the CC0 1.0 licence, which permits copying, modification, distribution and reuse, including commercial use, without requiring permission or attribution.
+
+All data preparation, transformations, analytical modelling, DAX calculations, visualisations and interpretations presented in this project were undertaken as part of this independent analysis.
+
 *This project is presented as an analytical case study demonstrating the application of Microsoft Excel and business intelligence techniques to healthcare operational data.*
