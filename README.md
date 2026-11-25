@@ -321,8 +321,8 @@ The interactive elements allow users to examine different patient segments witho
 
 The following image provides a visual overview of the completed dashboard.
 
-![<img width="1285" height="901" alt="Dashboard" src="https://github.com/user-attachments/assets/2ad80554-47e9-4d02-bad2-e32d00555eef" />
-](<img width="1285" height="901" alt="Dashboard" src="https://github.com/user-attachments/assets/0522e298-5bc1-4dfc-aec6-d107430465c0" />
+![<img width="1285" height="901" alt="Dashboard" src="https://github.com/user-attachments/assets/76f72633-cae5-4be0-9db5-133af481b881" />
+]
 )
 
 *Figure 1: Interactive Healthcare Patient Flow Analytics Dashboard developed using Microsoft Excel.*
