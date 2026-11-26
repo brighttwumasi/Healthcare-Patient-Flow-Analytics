@@ -161,11 +161,7 @@ This preserved the records while maintaining transparency about the data-quality
 
 ### C. Department Referral Classification
 
-The source dataset contained 5,400 records with the department referral value `None`.
-
-These were recategorized as `Not referral` to distinguish encounters without a recorded department referral from missing data.
-
-This classification also enabled the analysis of specialist department referrals separately from encounters without referrals.
+The 5,400 records containing the source value None were recategorized as Not referral for this analysis. This classification was adopted to separate these records from encounters assigned to specialist departments.
 
 ### D. Age Categorization
 
@@ -238,10 +234,9 @@ The following measures were used:
 
 **Total Patients**
 
-```dax
 Total Patients :=
 COUNTROWS(PatientsTable)
-```
+
 
 **Total Admissions**
 
@@ -781,7 +776,8 @@ The dataset used in this project was obtained from Kaggle:
 
 **Licence:** CC0 1.0 Universal (Public Domain Dedication).
 
-The dataset is released under the CC0 1.0 licence, which permits copying, modification, distribution and reuse, including commercial use, without requiring permission or attribution.
+The dataset is released under the CC0 1.0 licence, which permits copying, modification, distribution and reuse, including commercial use, without requiring permission or attribution. 
+The CC0 licence applies to the source dataset. The original analytical work, including the Excel workbook, dashboard, documentation and interpretations, was independently developed for this project.
 
 All data preparation, transformations, analytical modelling, DAX calculations, visualisations and interpretations presented in this project were undertaken as part of this independent analysis.
 
