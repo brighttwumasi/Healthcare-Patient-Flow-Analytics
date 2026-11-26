@@ -352,6 +352,13 @@ The following image provides a visual overview of the completed dashboard.
 
 The dashboard serves as the primary visual interface for communicating the analytical findings and supporting further exploration of patient-flow patterns.
 
+## 7.5 Download the Excel Workbook
+
+Explore the complete Excel project, including data cleaning,
+Power Query transformations, Power Pivot modelling, DAX measures
+and the interactive dashboard.
+
+[![Download Excel Workbook](https://img.shields.io/badge/Download-Excel%20Workbook-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/brighttwumasi/Healthcare-Patient-Flow-Analytics/raw/refs/heads/main/Healthcare_Patient_Flow_Analytics.xlsx)
 # 8. Key Findings and Analysis
 
 ## 8.1 Overall Patient Admission Performance
