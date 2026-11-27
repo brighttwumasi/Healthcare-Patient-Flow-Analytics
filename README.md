@@ -3,7 +3,8 @@
 
 **A Data Analytics Case Study | 2023–2024**
 
-**Prepared by:** Brightdata Consult  
+**Project developed by:** Bright Marfo Twumasi
+**Designation:** Lead Consultant, Brightdata Consult  
 **Website:** brightdataconsult.com  
 **Project Category:** Healthcare Analytics | Business Intelligence | Operational Performance Analysis  
 **Tools:** Microsoft Excel, Power Query, Power Pivot, DAX and Excel Dashboards
@@ -763,13 +764,16 @@ Potential extensions of this project include:
 
 # About Brightdata Consult
 
-Brightdata Consult provides services in Data Analytics, Quality Management Systems, Compliance, Data Protection, Research and Insight Development.
+Brightdata Consult is a consulting and professional development firm focused on helping organisations make informed decisions, strengthen operational performance and improve compliance through data-driven solutions.
 
-We help organizations transform data into meaningful insights, strengthen operational processes and support informed decision-making.
+Our service areas include:
 
-Our approach is guided by three principles:
+- **Data Analytics and Business Intelligence:** Transforming data into actionable insights for better decision-making.
+- **Quality Management and Compliance:** Supporting organisations with quality systems, process improvement, auditing and governance.
+- **Data Protection:** Promoting responsible data management, privacy and regulatory compliance.
+- **Research and Insight Development:** Supporting evidence-based research, performance assessment and organisational improvement.
 
-**Insights. Integrity. Impact.**
+**Our philosophy:** Insights. Integrity. Impact.
 
 Website: https://brightdataconsult.com
 
